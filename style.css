@@ -16,3 +16,20 @@ h1 {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.btn {
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  animation: aparecer 1s ease-in;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
